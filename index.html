@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Sandoval Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+
+        /* Additional styling for templates and shop sections */
+        .template-card, .shop-item {
+            border: 1px solid #ccc;
+            margin: 50px;
+            padding: 50px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .template-card img, .shop-item img {
+            width: 20%;
+            height: auto;
+        }
+
+        .template-card h3, .shop-item h3 {
+            color: darkgreen;
+        }
+
+        .template-card p, .shop-item p {
+            color: #555;
+        }
+
+        .template-card a, .shop-item a {
+            display: inline-block;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .template-card a:hover, .shop-item a:hover {
+            background-color: darkgreen;
+        }
+
+        /* Chatbot container styles */
+.chatbot-container {
+    position: fixed;      /* Fix the position to the left side */
+    left: 20px;           /* Position it to the left edge of the screen */
+    bottom: 20px;         /* Position it above the bottom */
+    width: 300px;         /* Set width for the chatbot container */
+    height: 400px;        /* Set height for the chatbot container */
+    background-color: #fff; /* Background color for the chatbot */
+    border-radius: 50px 50px 10px 10px; /* Rounded corners to create bubble-like effect */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Shadow to make it look like it's floating */
+    z-index: 9999;        /* Ensure it's on top of other content */
+    display: flex;        /* Flexbox to align the content */
+    flex-direction: column;
+    justify-content: space-between; /* Space out the chat window and input area */
+    padding: 20px;        /* Padding around the content */
+    transition: all 0.3s ease; /* Smooth transition for any changes in position */
+}
+
+/* Chat window styling */
+.chat-window {
+    flex-grow: 1;          /* Allow the chat window to take most of the container's height */
+    overflow-y: auto;      /* Enable scrolling for the chat window */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* User input field and button styles */
+.user-input {
+    width: 100%;           /* Full width of the container */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;   /* Rounded edges for the input field */
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Make sure padding and border don't affect width */
+}
+
+.send-btn {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;   /* Rounded edges for the button */
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Send button hover effect */
+.send-btn:hover {
+    background-color: #45a049;
+}
+
+/* Style for individual messages from bot or user */
+.bot, .user {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 25px;
+    max-width: 80%;
+    word-wrap: break-word;  /* Ensure long messages break properly */
+}
+
+.cypher-x {
+    background-color: #e1f5fe;
+    align-self: flex-start;
+}
+
+.user {
+    background-color: #c8e6c9;
+    align-self: flex-end;
+}
+
+/* Optional: Add a pulse effect to make it more dynamic */
+.chatbot-container:hover {
+    transform: scale(1.05); /* Slightly enlarge the chatbot when hovered */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+
+
+
+}
+
+
+
+
+
+  
+
+
+
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;" id="media">
+            <main>
+                <img src="images/chubbyspicscopy.jpg" width="300" height="300" class="center-image"/> 
+            </main>
+            <section>&nbsp;</section>
+            <h1 style="color: yellowgreen;">Javier's Resume and skills</h1>
+            <h1></h1>
+            <video>
+                <source>
+            </video>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workouts">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2 style="color: chartreuse;">Welcome</h2>
+            <p style="color: black;">I am a dedicated and reliable professional with a strong work ethic, excelling in both warehousing and data analysis. In the warehousing sector, I consistently demonstrate efficiency, attention to detail, and a commitment to ensuring smooth operations, whether it's managing inventory, optimizing workflows, or meeting tight deadlines. I approach every task with a hands-on attitude, striving to improve processes and maintain high standards of safety and productivity. As a data analyst, I apply my analytical skills to transform complex data into actionable insights, supporting decision-making and driving business improvements. Additionally, I am proficient in HTML, CSS, JavaScript, and Python, using these skills to develop solutions, automate tasks, and enhance processes. My ability to manage multiple tasks, adapt quickly, and consistently deliver results has earned me a reputation as a hardworking and versatile team member in both warehousing and technology-related fields.</p>
+        </div>
+    </section>
+
+    <section id="workouts">
+        <div class="container">
+            <h2 style="color: chartreuse;">Work experience and education</h2>
+            <div class="workout-plan">
+                <h3>Work experience</h3>
+                <p>I have extensive experience in **HTML**, **CSS**, **Python**, and **JavaScript**, which I have used to build dynamic websites, design user-friendly interfaces, and develop powerful chatbots. My skill set also includes creating tailored **resumes** that highlight key professional strengths, ensuring clients stand out in competitive job markets. Beyond my technical expertise, I am passionate about living a healthy lifestyle, maintaining a strong focus on fitness and a well-balanced diet. This commitment to health not only boosts my personal well-being but also fuels my productivity and creativity, allowing me to bring both my technical and personal best to everything I do.</p>
+            </div>
+            <div class="workout-plan">
+                <h3>Education</h3>
+                <p>I graduated from Barrington High School and continued my education at McHenry County College, where I studied **Computer Science** and laid the foundation for my technical career. During my time at college, I developed a strong interest in programming and technology, which led me to further enhance my skills by completing an **online Software Engineering Bootcamp**. This bootcamp allowed me to gain hands-on experience with modern development practices, coding languages, and problem-solving techniques, equipping me with the tools and knowledge to succeed in the fast-paced world of software engineering.</p>
+            </div>
+            <div class="workout-plan">
+                <h3>Services</h3>
+                <p>I am skilled at creating resumes that stand out by highlighting key strengths and experiences in a way that captures attention and impresses potential employers. Additionally, I specialize in building professional websites that are visually appealing and highly functional, ensuring a great user experience. Alongside my web design and resume services, I also sell personalized chatbots to help businesses enhance their websites by automating customer interactions, providing 24/7 support, and improving overall user engagement.
+
+                    Beyond my technical expertise, I offer fitness advice to my clients, helping them adopt healthier lifestyles through personalized workout plans and nutrition guidance. My ability to combine these diverse skills allows me to provide valuable support to individuals and businesses looking to enhance their careers, online presence, and overall well-being.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="templates">
+        <div class="container">
+            <h2 style="color: chartreuse;">Available Templates</h2>
+            <div class="template-card">
+                <img src="images/temp.jpg" alt="Template 1" width="50" height="50">
+                <h3>Modern Resume Template</h3>
+                <p>A sleek and clean design that focuses on highlighting your achievements and skills. And get one customized T-shirt for free for your business.</p>
+                <a href="#">View Template</a>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="template-card">
+                <img src="images/coloshop-free-bootstrap-ecommerce-website-templates copy.jpg" alt="Template 2">
+                <h3>Ecommerce website</h3>
+                <p>Build a Ecommerce website to sell and display youre products. And get one customized T-shirt for free for your business.</p>
+                <a href="#">View Template</a>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="template-card">
+                <img src="images/chatbot.jpg" alt="Template 3" width="50" height="50">
+                <h3>Creative Portfolio Template</h3>
+                <p>Creating a website using a chatbot. And get one customized T-shirt for free for your business.</p>
+                <a href="#">View Template</a>
+                <a href="#">Buy Now</a>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="shop">
+        <div class="container">
+            <h2 style="color: chartreuse;">Shop</h2>
+            <div class="shop-item">
+                <img src="images/shirt.jpg" alt="Item 1">
+                <h3>Design your shirt for personal use or for company advertising.</h3>
+                <p>N</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="shop-item">
+                <img src="images/mug.jpg" alt="Item 2">
+                <h3>Custom cups or coffee mugs.</h3>
+                <p></p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="shop-item">
+                <img src="55.jpg" alt="Item 3">
+                <h3>Create youre own custom stickers for branding and marketing.</h3>
+                <p>.</p>
+                <a href="#">Buy Now</a>
+
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p style="color: chartreuse;">If you'd like to get in touch with me, feel free to contact me via email or phone:</p>
+            <p>Email: <a href="mailto:lilianajs27@gmail.com">lilianajs27@gmail.com</a></p>
+            <p>Phone: <a href="tel:+17797705081">779-770-5081</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Javier resume. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot container -->
+    <div id="chatbot" class="chatbot-container">
+        <div class="chatbox">
+            <div id="chat-window" class="chat-window">
+                <!-- Chat messages will appear here -->
+            </div>
+            <input type="text" id="user-input" class="user-input" placeholder="Ask me anything..." />
+            <button id="send-btn" class="send-btn">Send</button>
+        </div>
+    </div>
+
+     <!-- JavaScript for chatbot functionality -->
+     <script>
+      // Simulated responses for the chatbot
+      const responses = {
+  "hi": "Hello! How can I assist you today?",
+  "how are you?": "I'm doing great, thank you for asking! How can I help you?",
+  "what is your name?": "My name is Nova X, I am Javier's robot assistant.",
+  "is javier a reliable worker?": "Yes, Javier is a reliable worker. He always strives to exceed expectations, takes pride in his work, and constantly looks for ways to improve and contribute to the team's success.",
+  "have you ever worked with javier?": "Yes, I work with him every day. He trains and feeds me new data and information regularly. He's a great worker! :)",
+  "why should we hire javier?": "Javier has over 5 years experience using html/css, python and javascript and is very passinote with helping others and computer programming.",
+  "what does javier like to do on his free time?": "Javier loves spending time with his daughter, workingout, and learning new technology and computer languages.",
+  "do you know any stories where javier had to handel stress and how did he handle it": "Javier currently manages over 100 employees, everyday is a new day and new problems occur eachday he is always there for his employees and gets the job done regardless of the situation.",
+  "hi": "Hello! How can I assist you with your resume or website today?",
+  "how do you build a website": "To build a website, I start by understanding the client's needs. I use HTML for structure, CSS for styling, and JavaScript for interactivity. I ensure the website is responsive and user-friendly. After that, I deploy the website to a hosting server and make sure everything works properly.",
+  "why is building a website important": "Building a website is crucial because it provides an online presence that helps businesses, professionals, or anyone showcase their work, services, or products. It helps in reaching a larger audience and builds trust with potential clients.",
+  "how do you build a resume": "Building a resume involves highlighting your skills, work experience, education, and achievements. I structure it to focus on key aspects like job titles, responsibilities, measurable results, and relevant skills. I tailor it to each specific job I am applying for to stand out.",
+  "why is building a resume important": "A resume is your first chance to impress potential employers. A well-structured resume showcases your experience and skills, making it easier for recruiters to see why you're a great fit for the job.",
+  "how do you tailor your resume for a job": "To tailor a resume for a specific job, I review the job description and match my skills and experiences to what the employer is looking for. I also use keywords from the job listing to ensure my resume passes applicant tracking systems (ATS).",
+  "what makes a website successful": "A successful website is one that provides value to users, loads quickly, is easy to navigate, and is mobile-friendly. It should also have clear calls to action and strong SEO practices to attract more visitors.",
+   "how can a resume help you land a job": "A resume helps land a job by demonstrating your qualifications and experience in a concise and organized way. It shows potential employers why you're the right fit for the position and helps you stand out from other applicants.",
+   "what are the key elements of a good resume": "A good resume includes a strong header with contact information, a professional summary or objective, relevant skills, detailed work experience with measurable achievements, and education. It should be clear, concise, and free of errors.",
+   "how do you make a resume stand out": "To make a resume stand out, I focus on quantifiable achievements, use action verbs, and tailor the content to the job I'm applying for. I also ensure the resume is visually appealing and free of mistakes. Adding a personal touch or a unique skill can also help differentiate it from others.",
+          
+   // More detailed questions and answers about building websites and resumes to land a job
+  "how do websites help with job applications": "Websites act as a digital portfolio for job seekers. They showcase your work, skills, and experiences. A personal website can serve as an online resume and provide potential employers with more insight into your capabilities.",
+  "what should I include on my resume for a tech job": "For a tech job, I include my technical skills, programming languages, frameworks, and tools Im proficient in. I also list any projects Ive worked on, including personal projects or contributions to open-source projects.",
+  "how do you optimize a website for job searching": "I optimize my website by ensuring it is mobile-friendly, has a clean and easy-to-navigate design, and is optimized for search engines (SEO). I also make sure my resume, portfolio, and contact information are easily accessible.",
+  "should I include a portfolio on my resume": "Yes, if you are applying for jobs that require technical or creative work, including a portfolio on your resume can make a big difference. A portfolio showcases examples of your previous work, giving employers a clear view of your abilities.",
+  "how does a personal website help with job hunting": "A personal website provides potential employers with a comprehensive overview of your skills, experience, and achievements. It can serve as a digital portfolio that is easy to share and can be accessed anytime, improving your chances of landing a job.",
+  "how do you present your resume on your website": "On my website, I create a section dedicated to my resume. I include an easily readable PDF version that visitors can download, along with a summary of my experience, education, and skills directly on the page.",
+  "how do you highlight your achievements in your resume": "I highlight achievements by quantifying them whenever possible. For example, instead of just listing responsibilities, I write about how I improved processes, increased sales, or led successful projects. Using metrics makes achievements stand out more to employers.",
+  "how important is a clean layout for a website or resume": "A clean layout is crucial for both websites and resumes. It makes the content easy to read and navigate. Employers often skim resumes quickly, so a well-organized and visually appealing layout can make a lasting impression.",
+  "how do you make your website and resume look professional": "I ensure both my website and resume have a modern and polished look. I use clear fonts, appropriate colors, and simple navigation on the website. For the resume, I stick to a professional format, avoiding unnecessary design elements that might distract from the content.",
+  "do you know javier": "Yes javier is a great man",
+  "default": "Sorry, I didn't quite get that. Could you rephrase your question?"
+  };
+
+
+
+      // Function to send messages in the chat window
+      function sendMessage(message, sender) {
+          const chatWindow = document.getElementById('chat-window');
+          const messageElement = document.createElement('div');
+          messageElement.classList.add(sender);
+          messageElement.textContent = message;
+          chatWindow.appendChild(messageElement);
+          chatWindow.scrollTop = chatWindow.scrollHeight; // Scroll to the bottom
+      }
+
+      // Function to handle user input and bot response
+      function handleUserInput() {
+          const userInput = document.getElementById('user-input').value.toLowerCase();
+          sendMessage(userInput, 'user'); // Display user message
+
+          // Determine chatbot response
+          const response = responses[userInput] || responses["default"];
+          setTimeout(() => sendMessage(response, 'bot'), 500); // Display bot response after a short delay
+
+          // Clear input field
+          document.getElementById('user-input').value = '';
+      }
+
+      // Event listener for the send button
+      document.getElementById('send-btn').addEventListener('click', handleUserInput);
+
+      // Event listener for pressing the Enter key
+      document.getElementById('user-input').addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') {
+              handleUserInput();
+          }
+      });
+  </script>
+  
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2024/11/25/01/20241125015701-WYGOXLVH.js"></script>
+
+
+
+
+  
+
+  
+      
+</body>
+</html>
+
